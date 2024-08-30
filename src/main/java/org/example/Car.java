@@ -26,8 +26,8 @@ public class Car extends Vehicle {
     public String displayInfo(){
 
         return "Car Brand: " + brand +
-                "/nColor: " + getColor() + "/nEngine Size: " + getEngineSize()
-                + "/nFuel Type: " + getFuelType() + "/Number of Wheels: " + getNumberOfWheels();
+                "\nColor: " + getColor() + "\nEngine Size: " + getEngineSize()
+                + "\nFuel Type: " + getFuelType() + "\nNumber of Wheels: " + getNumberOfWheels();
     }
 }
 
